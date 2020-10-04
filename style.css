@@ -30,6 +30,7 @@ footer p {
   text-transform: none;
   text-align: center;
   width: 100%;
+  border-bottom: none;
 }
 
 .nav-link {
@@ -40,4 +41,65 @@ footer p {
 
 .nav-link:hover {
   text-decoration: underline !important;
+}
+.about-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 50px;
+}
+.bio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: none;
+  text-align: center;
+  width: 40%;
+  border-bottom: none;
+  text-align: left;
+  margin: 0;
+  line-height: 2.2em;
+}
+.bio-img {
+  height: 50%;
+  width: 35%;
+}
+.awards {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  text-transform: none;
+  text-align: center;
+  border-bottom: none;
+  margin: 0 auto;
+  width: 83%;
+  line-height: 2.5em;
+  border-top: 2px solid #f1f1f1;
+  color: grey;
+  margin-top: 30px;
+}
+.bold {
+  font-weight: 700;
+}
+.submit-button {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+input {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.message {
+  margin-top: 15px;
+}
+form {
+  width: 50% !important ;
+  margin: 0 auto;
+}
+.bookme {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 15vh;
+}
+.line {
+  border: 2px solid #f1f1f1;
+  width: 50%;
 }
